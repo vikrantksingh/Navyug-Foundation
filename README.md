@@ -1,2 +1,2 @@
 # Navyug-Foundation
-Navyug Foundation Wordpress Website
+Navyug Foundation HTML Website
