@@ -183,9 +183,9 @@
 
 @media (max-width: 576px) {
     .section_heading h2 {
-        padding-top: 10px;
+        padding-top: 35px;
         font-size: 30px;
-        line-height: 41px;
+        line-height: 30px;
     }
 
     .section_heading h3 {
