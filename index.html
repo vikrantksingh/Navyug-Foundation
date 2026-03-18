@@ -1273,6 +1273,55 @@
                 </div>
             </div>
         </div>
+		
+		<style>
+    #flash-message-bar {
+        background-color: #002147; /* Navy Blue to match 'Navyug' */
+        color: #ffffff;
+        text-align: center;
+        padding: 12px 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    #flash-message-bar a {
+        color: #ffcc00; /* Gold/Yellow for the link to stand out */
+        text-decoration: underline;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    #close-flash {
+        position: absolute;
+        right: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* Adjust body padding so message doesn't cover top content */
+    body {
+        padding-top: 50px; 
+    }
+</style>
+
+<div id="flash-message-bar">
+    <span>📢 <strong>Upcoming Event:</strong> Women & Kid’s Kabaddi Fitness Match! </span>
+    <a href="https://navyugfoundation.org/Kabaddi-April2026.html">Learn More & Register →</a>
+    <span id="close-flash" onclick="document.getElementById('flash-message-bar').style.display='none'">&times;</span>
+</div>
+		
+		
+		
+
         <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.bundle.js"></script>
